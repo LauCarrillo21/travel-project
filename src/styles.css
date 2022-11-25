@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background: #251625;
 }
   .container {
     max-width: 1400px;
@@ -210,10 +209,10 @@ body {
   footer {
     color: white;
     background-image: linear-gradient(
-        rgba(39, 32, 68, 0.9),
-        rgba(39, 32, 68, 0.9)
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
       ),
-      url("../images/merida-centro.jpg");
+      url("../images/flamingo.jpg");
   
     background-repeat: no-repeat;
     background-size: cover;
