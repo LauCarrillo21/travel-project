@@ -83,7 +83,7 @@ body {
   }
   
   header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../images/merida.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,17 +116,25 @@ body {
   
   header a {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    color: #272044;
-    padding: 16px 32px;
+    background:white;
+    padding: 22px;
     margin-top: 32px;
     display: inline-block;
-    letter-spacing: 3px;
-    text-decoration: none;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    background: white;
+    text-decoration: none;
+    color:#0A152A;
+    border-radius: 25px;
+    transition: all 200ms ease-in-out;
+  }
+
+  header a:hover {
+    background:#40323A;
+    color: white;
+    cursor: pointer;
   }
   
   main {
