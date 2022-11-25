@@ -53,6 +53,29 @@ body {
   .card-body {
     padding: 30px;
   }
+
+  .card a {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color:white;
+    padding: 16px;
+    display:block;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background:#40323A;
+    border-radius: 25px;
+    transition: all 200ms ease-in-out;
+    max-width: 100%;
+  }
+
+  .card a:hover {
+    color:#251625 ;
+    background: white;
+    cursor: pointer;
+    border: 1px solid #251625;
+  }
   
   .card-footer {
     padding: 0 30px 30px;
@@ -170,7 +193,7 @@ body {
   
   main h5 {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 18px;
     margin: 0;
     line-height: 1;
     color: #272044;
