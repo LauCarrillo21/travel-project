@@ -245,6 +245,10 @@ body {
     color: white;
     opacity: 0.7;
   }
+
+  .space {
+    margin-bottom: 15px;
+  }
   
   @media (max-width: 960px) {
     header {
